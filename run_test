@@ -1,0 +1,1 @@
+g++ -fprofile-arcs -ftest-coverage -pedantic -Wall --std=c++11 -I ../ooplsarc/examples/googletest/googletest/include -L ../ooplsarc/examples/googletest/googletest/gt/ ../ooplsarc/examples/googletest/googletest/gt/libgtest.a Collatz.c++ TestCollatz.c++  -lgtest -lpthread -lgtest_main -o TestCollatz
